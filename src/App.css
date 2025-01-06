@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+.custom-hover-effect-svg-0 > path { 
+    @apply  fill-white   ;  
+} ; 
+
+.custom-hover-effect-svg-1:hover > path    { 
+    @apply  fill-white ; 
+} ; 
+
+.custom-hover-effect-svg-2:hover   { 
+    @apply  scale-110 ; 
+} ; 
+
+.custom-hover-effect-svg-3:hover  > path    { 
+    @apply fill-white  ; 
+} ; 
+
+.custom-hover-effect-svg-3:hover  {
+   @apply scale-110 ;
+}   
+
+
+.custom-hover-effect-button-0:hover  {   
+ 
+    @apply scale-110 ; 
+
+} 
+
+.custom-hover-effect-button-1:hover  { 
+
+    @apply scale-110 text-white ; 
+
+}
